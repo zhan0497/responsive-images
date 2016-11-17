@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <ul class="container">
+            <li>
+                <!-- All picture credit to
+                Markus Spiske - https://500px.com/markusspiske
+                Yinan Chen - https://500px.com/webmaster85
+                Fahim Akhter - https://500px.com/fahimakhter  -->
+                <picture>
+                    <source srcset="img/Large/L_fahim-akhter-kund-malir-pakistan.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/Medium/M_fahim-akhter-kund-malir-pakistan.jpg" media="(min-width: 600px) and (max-width: 1200px)" />
+                    <source srcset="img/Small/S_fahim-akhter-kund-malir-pakistan.jpg" media="(max-width: 600px)" />
+                    <img src="img/Medium/M_fahim-akhter-kund-malir-pakistan.jpg" alt="Pakistan" title="Pakistan. By Fahim Akhter">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="img/Large/L_markus-spiske-carrots.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/Medium/M_markus-spiske-carrots.jpg" media="(min-width: 600px) and (max-width: 1200px)" />
+                    <source srcset="img/Small/S_markus-spiske-carrots.jpg" media="(max-width: 600px)" />
+                    <img src="img/Medium/M_markus-spiske-carrots.jpg" alt="Carrots" title="controlled farming fresh bio carrot. By Markus Spiske">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="img/Large/L_markus-spiske-concert-crowd.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/Medium/M_markus-spiske-concert-crowd.jpg" media="(min-width: 600px) and (max-width: 1200px)" />
+                    <source srcset="img/Small/S_markus-spiske-concert-crowd.jpg" media="(max-width: 600px)" />
+                    <img src="img/Medium/M_markus-spiske-concert-crowd.jpg" alt="Crowd" title="music festival live concert fans. By Markus Spiske">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="img/Large/L_markus-spiske-guitar.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/Medium/M_markus-spiske-guitar.jpg" media="(min-width: 600px) and (max-width: 1200px)" />
+                    <source srcset="img/Small/S_markus-spiske-guitar.jpg" media="(max-width: 600px)" />
+                    <img src="img/Medium/M_markus-spiske-guitar.jpg" alt="Guitar" title="e-guitar. By Markus Spiske">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="img/Large/L_markus-spiske-stage.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/Medium/M_markus-spiske-stage.jpg" media="(min-width: 600px) and (max-width: 1200px)" />
+                    <source srcset="img/Small/S_markus-spiske-stage.jpg" media="(max-width: 600px)" />
+                    <img src="img/Medium/M_markus-spiske-stage.jpg" alt="Stage" title="live on stage. By Markus Spiske">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="img/Large/L_yiman-chen-castlerock-wisconsin.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/Medium/M_yiman-chen-castlerock-wisconsin.jpg" media="(min-width: 600px) and (max-width: 1200px)" />
+                    <source srcset="img/Small/S_yiman-chen-castlerock-wisconsin.jpg" media="(max-width: 600px)" />
+                    <img src="img/Medium/M_yiman-chen-castlerock-wisconsin.jpg" alt="Castlerock" title="Sunset over Castlerock Lake. By Yinan Chen">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="img/Large/L_yiman-chen-gibraltar-rock-wisconsin.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/Medium/M_yiman-chen-gibraltar-rock-wisconsin.jpg" media="(min-width: 600px) and (max-width: 1200px)" />
+                    <source srcset="img/Small/S_yiman-chen-gibraltar-rock-wisconsin.jpg" media="(max-width: 600px)" />
+                    <img src="img/Medium/M_yiman-chen-gibraltar-rock-wisconsin.jpg" alt="Rock" title="Sitting on the Bluff. By Yinan Chen">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
